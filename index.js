@@ -11,7 +11,6 @@ module.exports = class DataloaderCollection extends Collection {
       let find = this.store.find.bind(this.store);
       //Creating dataloader
       this.store.loader = new Dataloader(keys => {
-        console.log('requesting database');
         return new Bluebird((resolve, reject) => {
           find({
             id: {
