@@ -1,0 +1,16 @@
+{
+  "name": "dpd-dataloader-collection",
+  "version": "0.0.1",
+  "description": "A deployd collection that uses dataloader to batch and cache queries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rgolea",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "dataloader": "^1.3.0",
+    "underscore": "^1.8.3"
+  }
+}
